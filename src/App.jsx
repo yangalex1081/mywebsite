@@ -1,11 +1,17 @@
-import { Button } from "@/components/ui/button"
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
-function App() {
+export default function App() {
   return (
-    <div className="flex min-h-svh flex-col items-center justify-center">
-      <Button>Click me</Button>
-    </div>
-  )
+    <>
+      <main className="flex flex-col gap-0">
+        <Hero />
+        <About />
+        <Projects />
+        <Contact />
+      </main>
+    </>
+  );
 }
-
-export default App
