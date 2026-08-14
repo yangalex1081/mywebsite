@@ -1,4 +1,4 @@
-import headshot from "../assets/IMG_6785.JPG";
+import headshot from "../assets/headshot.jpg";
 
 export default function About() {
   return (
@@ -12,6 +12,10 @@ export default function About() {
         <img
           src={headshot}
           alt="Alex Yang"
+          width={128}
+          height={128}
+          loading="lazy"
+          decoding="async"
           className="w-32 h-32 rounded-full object-cover shadow-lg shadow-black/40 border border-white/20"
         />
 
