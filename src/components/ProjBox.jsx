@@ -1,15 +1,7 @@
-import { useHover } from "@uidotdev/usehooks";
-import { useRef } from "react";
-
 export default function ProjBox({ project }) {
-  const ref = useRef(null);
-  const [hoverRef, isHovered] = useHover();
-
   return (
     <div
-      ref={hoverRef}
       aria-label={`Project: ${project.ProjName || "Project"}`}
-      tabIndex={0}
       className="
         w-full flex flex-col justify-between 
         bg-white/5 backdrop-blur-md 
