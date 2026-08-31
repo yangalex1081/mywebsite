@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section
         id="home"
-        className="px-6 py-24 mx-auto max-w-4xl"
+        className="px-6 pt-24 pb-10 mx-auto max-w-4xl"
     >
         <h1 className="text-5xl sm:text-6xl font-bold mb-6">
             Hi, I'm Alex 👋

@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="px-6 py-24 mx-auto max-w-4xl"
+      className="px-6 pt-10 pb-24 mx-auto max-w-4xl"
     >
       <div className="flex flex-col items-center text-center gap-8">
 

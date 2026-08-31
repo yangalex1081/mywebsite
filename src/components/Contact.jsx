@@ -13,7 +13,22 @@ export default function Contact() {
       </p>
 
       <div className="flex flex-col gap-3 w-full max-w-sm mt-4">
-        {/* Email */}
+        {/* Personal email */}
+        <a
+          href="mailto:yangalex1081@gmail.com"
+          className="
+            py-2 px-4 
+            text-cyan-300 underline underline-offset-4 
+            hover:bg-white/80 hover:text-black
+            transition rounded-lg
+            hover:shadow-md hover:shadow-cyan-200
+            hover:ring-2 hover:ring-white/70
+          "
+        >
+          yangalex1081@gmail.com
+        </a>
+
+        {/* School email */}
         <a
           href="mailto:way9227@nyu.edu"
           className="

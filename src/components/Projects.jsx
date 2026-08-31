@@ -13,6 +13,16 @@ export default function Projects() {
         CTA2_link: "https://alexs-receipt-parser.netlify.app/",
     },
     {
+        ProjName: "Popo's Cookbook",
+        Liner: "A recipe site preserving my grandmother's cooking.",
+        TechStack: "Next.js • TypeScript • Tailwind • Markdown",
+        About: "Statically generated recipe site where every dish is a markdown file with YAML frontmatter, so the recipes stay portable and version-controlled. Includes an ingredient scaler, a build-time validation script that fails CI on malformed recipes, and JSON-LD structured data for search. 8 recipes published, 25 in drafts.",
+        CTA1: "View Repo",
+        CTA1_link: "https://github.com/yangalex1081/popos_cookbook",
+        CTA2: "",
+        CTA2_link: ""
+    },
+    {
         ProjName: "Suspension Telemetry System",
         Liner: "Raspberry Pi and Arduino based data acquisition system.",
         TechStack: "SQL • RPi 4 • Arduino • Python",
