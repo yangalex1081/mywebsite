@@ -8,6 +8,17 @@ html {
   scroll-behavior: smooth;
 }
 
+/* The nav is sticky, so anchored sections must clear it when jumped to. */
+section[id] {
+  scroll-margin-top: 5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
 html, body {
   background: radial-gradient(
       circle at 20% 30%,

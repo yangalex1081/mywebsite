@@ -78,7 +78,7 @@ export default function Contact() {
         </a>
       </div>
 
-      <p className="text-white/50 text-sm mt-4">
+      <p className="text-white/70 text-sm mt-4">
         Based in New York City • Open to collaborations and new projects
       </p>
     </section>

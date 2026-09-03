@@ -4,6 +4,8 @@ export default function Projects() {
   const projects = [
     {
         ProjName: "Alex's Receipt Parser",
+        Year: "2025 — 2026",
+        Status: "Live",
         Liner: "Automated OCR system for receipt transcription and expense splitting.",
         About: "Built a serverless OCR pipeline using Modal GPUs and the DONUT transformer model to accurately parse receipts. Designed a concurrent job-queue system and integrated FastAPI with a React frontend for fast, effortless expense splitting.",
         TechStack: "Modal • Python • FastAPI • React • DONUT • Transformers",
@@ -14,16 +16,32 @@ export default function Projects() {
     },
     {
         ProjName: "Popo's Cookbook",
-        Liner: "A recipe site preserving my grandmother's cooking.",
+        Year: "2025 — 2026",
+        Status: "In progress",
+        Liner: "A website for my popo's cooking.",
         TechStack: "Next.js • TypeScript • Tailwind • Markdown",
-        About: "Statically generated recipe site where every dish is a markdown file with YAML frontmatter, so the recipes stay portable and version-controlled. Includes an ingredient scaler, a build-time validation script that fails CI on malformed recipes, and JSON-LD structured data for search. 8 recipes published, 25 in drafts.",
+        About: "A site where I keep my grandma's recipes so they don't get lost. You can scale the ingredients up or down depending on how many people you're cooking for. 8 recipes up so far, more on the way.",
         CTA1: "View Repo",
         CTA1_link: "https://github.com/yangalex1081/popos_cookbook",
         CTA2: "",
         CTA2_link: ""
     },
     {
+        ProjName: "Nonprofit Data Visualization Platform",
+        Year: "2025",
+        Status: "Repo",
+        Liner: "Custom data science app for donor analytics.",
+        TechStack: "Python • Data Viz • SQL",
+        About: "Led a team of 5 to build a data visualization application for nonprofits, enabling clear, client-ready insights. Oversaw outreach to 100+ nonprofits, collected requirements, and delivered actionable analytical tools.",
+        CTA1: "View Repo",
+        CTA1_link: "https://github.com/Pk0704/riverkeeper_project2",
+        CTA2: "",
+        CTA2_link: ""
+    },
+    {
         ProjName: "Suspension Telemetry System",
+        Year: "",
+        Status: "",
         Liner: "Raspberry Pi and Arduino based data acquisition system.",
         TechStack: "SQL • RPi 4 • Arduino • Python",
         About: "Built a full data acquisition system to capture suspension performance using a Raspberry Pi 4 and Arduino. Created and maintained an SQL database for over 1,000 telemetry data points per test drive. Implemented hardware-software integration for real-time performance monitoring and analytics.",
@@ -34,6 +52,8 @@ export default function Projects() {
     },
     {
         ProjName: "Due Diligence Q&A Platform",
+        Year: "",
+        Status: "",
         Liner: "Automated Q&A system using GOT 2.0 and ChromaDB.",
         TechStack: "GOT 2.0 • ChromaDB • Python • LLMs",
         About: "Developed a fully automated due diligence Q&A application using the GOT 2.0 model for question parsing and a ChromaDB vector database for semantic retrieval. The system streamlines internal knowledge access through accurate, context-aware query answering.",
@@ -44,19 +64,11 @@ export default function Projects() {
     },
     {
         ProjName: "Outbound Recruiting Automation",
+        Year: "",
+        Status: "",
         Liner: "Automated sourcing with GitHub data and LLM-powered messaging.",
         TechStack: "GitHub API • LLMs • Python",
         About: "Created an automated tool leveraging public GitHub data for software talent sourcing. Integrated LLM-generated personalized outreach messages, achieving a 30% cold outreach response rate.",
-        CTA1: "",
-        CTA1_link: "",
-        CTA2: "",
-        CTA2_link: ""
-    },
-    {
-        ProjName: "Nonprofit Data Visualization Platform",
-        Liner: "Custom data science app for donor analytics.",
-        TechStack: "Python • Data Viz • SQL",
-        About: "Led a team of 5 to build a data visualization application for nonprofits, enabling clear, client-ready insights. Oversaw outreach to 100+ nonprofits, collected requirements, and delivered actionable analytical tools.",
         CTA1: "",
         CTA1_link: "",
         CTA2: "",
@@ -67,7 +79,7 @@ export default function Projects() {
   ];
 
   return (
-    <section className="px-6 max-w-6xl mx-auto">
+    <section id="projects" className="px-6 py-24 max-w-6xl mx-auto">
         <h2 className="text-4xl font-semibold mb-8">Projects</h2>
 
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
